@@ -12,4 +12,4 @@ print(binary_search(list_var, 0))
 ```
 
 ## Implementation
-- [binary_search](https://github.com/JustKode/python-algorithm/blob/master/1.Binary_Search/binary_search.py)
+- [binary_search.py](https://github.com/JustKode/python-algorithm/blob/master/1.Binary_Search/binary_search.py)
