@@ -1,5 +1,13 @@
 from bubble_sort import bubble_sort
-list_var = [3,2,4,1,5]
+from selection_sort import selection_sort
+list_var1 = [3,2,4,1,5]
+list_var2 = [3,2,4,1,5]
+list_var3 = [3,2,4,1,5]
+list_var4 = [3,2,4,1,5]
+list_var5 = [3,2,4,1,5]
 
-bubble_sort(list_var)
-print(list_var)
+bubble_sort(list_var1)
+print(list_var1)
+
+selection_sort(list_var2)
+print(list_var2)
