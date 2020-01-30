@@ -12,3 +12,8 @@
 첫 번째로 작은 값... 두 번째로 작은 값... 차례대로 찾아서 정렬하는 방법을 가지고 있는 **Selection Sort** 입니다. 시간 복잡도는 **O(n^2)** 입니다.
 
 - [selection_sort.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/selection_sort.py)
+
+## Insertion Sort
+앞 원소부터 차례대로 이미 정렬된 부분과 비교, 자신의 위치를 찾아 삽입하여 정렬을 완성하는 정렬 방법입니다.
+
+- [insertion_sort.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/insertion_sort.py)
