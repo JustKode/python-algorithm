@@ -17,3 +17,9 @@
 앞 원소부터 차례대로 이미 정렬된 부분과 비교, 자신의 위치를 찾아 삽입하여 정렬을 완성하는 정렬 방법입니다.
 
 - [insertion_sort.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/insertion_sort.py)
+
+## Merge Sort
+**분할 정복**을 사용하는 정렬 방법으로, 시간 복잡도가 **O(n log n)** 으로 빠른 속도를 가지고 있지만, 분할 시마다 **리스트 객체를 할당**해야 한다는 점에서 공간 복잡도는 좋지 않다는 단점이 있습니다.
+
+- [merge_sort.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/merge_sort.py)
+
