@@ -23,3 +23,42 @@
 
 - [merge_sort.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/merge_sort.py)
 
+## Quick Sort
+가장 많이 사용하는 정렬 알고리즘으로, 이 또한 **분할 정복** 기법을 이용합니다. 시간 복잡도는 **O(n log n)** 이며, 최악의 경우는 **O(n^n)** 입니다. 거의 정렬 된 리스트인 경우에 더 오래 걸리므로, 참고 하셔야 합니다.
+
+- [quick_sort.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/quick_sort.py)
+
+## Built in algorithm in sort() method
+기존 `list` 객체의 `sort()` method에는 [Tim Sort](https://en.wikipedia.org/wiki/Timsort) 라는 정렬 방법이 들어 가 있습니다. 이 정렬 방법은 **Merge Sort**와 **Insert Sort**가 혼합되어 있으며, **기본적으로 데이터가 거의 정렬 되어 있다고 가정하고** 디자인 된 알고리즘입니다. 시간 복잡도는 최적의 경우 **O(n)**, 최악의 경우 **O(n log n)** 을 가지고 있습니다.
+
+## How To Use?
+- [test.py](https://github.com/JustKode/python-algorithm/blob/master/2.Sort/test.py)
+
+```python
+from bubble_sort import bubble_sort
+from selection_sort import selection_sort
+from insertion_sort import insertion_sort
+from merge_sort import merge_sort
+from quick_sort import quick_sort
+
+list_var1 = [3,2,4,1,5]
+list_var2 = [3,2,4,1,5]
+list_var3 = [3,2,4,1,5]
+list_var4 = [3,2,4,1,5]
+list_var5 = [3,2,4,1,5]
+
+bubble_sort(list_var1)
+print(list_var1)
+
+selection_sort(list_var2)
+print(list_var2)
+
+insertion_sort(list_var3)
+print(list_var3)
+
+merge_sort(list_var4)
+print(list_var4)
+
+quick_sort(list_var5)
+print(list_var5)
+```
