@@ -13,3 +13,14 @@
 **Queue**은 FIFO(First In First Out)라는 특성을 가지고 있는 자료 구조로, 제일 먼저 들어 간 값은, 제일 먼저 나온다는 특성을 가지고 있습니다. **Stack**과는 반대되는 개념입니다.
 
 - [queue.py](https://github.com/JustKode/python-algorithm/blob/master/3.Data_Structure/queue.py)
+
+## Deque
+**Deque**은 양 방향으로 나가고 들어올 수 있는 **Queue**로 **Python3**에 기본 내장 되어 있습니다. 아래 링크를 참고 하세요.
+- [Python Documents - collections/deque](https://docs.python.org/3/library/collections.html#collections.deque)
+
+## Tree
+**Tree**는 **Node**단위로 이루어진 자료구조로, 하나의 **Root Node**를 기준으로, 각 **Node**는 하나의 **Parent Node**만 가지게 되는 비선형의 구조입니다.
+
+## Binary Search Tree
+**Binary Search Tree**는 한국어로 이진 트리라는 뜻을 가지고 있으며, 왼쪽에 있는 모든 **Child Node**는 오른쪽에 있는 모든 **Child Node**보다 작다는 특성을 가지고 있습니다. 탐색의 시간 복잡도가 **O(log n)**을 자랑 합니다. 하지만, 정렬 된 데이터가 `insert` 되었을 때는 완전 탐색을 하여 시간 복잡도가 **O(n)**이 될 수 있습니다. 이를 해결한 자료구조로 [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree) 가 있습니다.
+- [bst.py](https://github.com/JustKode/python-algorithm/blob/master/3.Data_Structure/queue.py)

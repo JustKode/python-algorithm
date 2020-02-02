@@ -1,5 +1,6 @@
 from stack import Stack
 from queue import Queue
+from bst import BinarySearchTree
 
 # Stack
 print("\n\nStack Start \n\n")
@@ -31,3 +32,20 @@ print(queue.get())
 print(queue.get())
 print(queue.get())
 print(queue.is_empty())
+
+# BST
+print("\n\nBST Start \n\n")
+bst = BinarySearchTree()
+bst.insert(3)
+bst.insert(5)
+bst.insert(4)
+bst.insert(1)
+bst.insert(2)
+bst.in_order_execute(print)
+bst.post_order_execute(print)
+bst.pre_order_execute(print)
+bst.delete(3)
+bst.delete(5)
+bst.in_order_execute(print)
+print(bst.get(3))
+print(bst.get(4))
