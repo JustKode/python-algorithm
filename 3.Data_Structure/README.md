@@ -8,3 +8,8 @@
 **Stack**은 LIFO(Last In First Out)라는 특성을 가지고 있는 자료 구조로, 제일 먼저 들어 간 값은, 제일 나중에 나온다는 특성을 가지고 있습니다.
 
 - [stack.py](https://github.com/JustKode/python-algorithm/blob/master/3.Data_Structure/stack.py)
+
+## Queue
+**Queue**은 FIFO(First In First Out)라는 특성을 가지고 있는 자료 구조로, 제일 먼저 들어 간 값은, 제일 먼저 나온다는 특성을 가지고 있습니다. **Stack**과는 반대되는 개념입니다.
+
+- [queue.py](https://github.com/JustKode/python-algorithm/blob/master/3.Data_Structure/queue.py)
