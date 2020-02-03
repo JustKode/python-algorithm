@@ -1,6 +1,7 @@
 from stack import Stack
 from queue import Queue
 from bst import BinarySearchTree
+from heap import Heap
 
 # Stack
 print("\n\nStack Start \n\n")
@@ -49,3 +50,20 @@ bst.delete(5)
 bst.in_order_execute(print)
 print(bst.get(3))
 print(bst.get(4))
+
+# Heap
+heap = Heap(max=True)
+heap.push(3)
+heap.push(5)
+heap.push(4)
+heap.push(1)
+heap.push(2)
+print(heap.top())
+print(heap.is_empty())
+print(heap)
+print(heap.pop())
+print(heap.pop())
+print(heap.pop())
+print(heap.pop())
+print(heap.pop())
+print(heap.is_empty())
